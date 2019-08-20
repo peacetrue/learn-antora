@@ -1,0 +1,9 @@
+= 学习antora
+
+**antora**的官网地址是 https://antora.org/ ，本文基于2.0版本。
+
+官网对于antora的简介是："The multi-repository documentation site generator for tech writers who love writing in AsciiDoc."
+怎么理解这句话呢，
+首先**antora**是一个文档站点生成器（静态站点生成器SSG），类似于**jeyyle**；
+其次**antora**使用的标记语言是**AsciiDoc**，而非**Markdown**；
+再次**antora**会从多个资源库中获取源文件，对于资源库中的文档组织结构有硬性要求。
