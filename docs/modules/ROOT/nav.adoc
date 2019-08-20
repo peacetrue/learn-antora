@@ -1,1 +1,2 @@
-* xref:pages/index.adoc[首页]
+* xref:index.adoc[简介]
+* xref:question.adoc[常见问题]
