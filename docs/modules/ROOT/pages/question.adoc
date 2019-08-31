@@ -1,7 +1,0 @@
-= 常见问题
-
-== 如何指定生成文件的路径
-antora generate --to-dir ./ site.yml
-
-=== GitHub Pages 是否可以配置静态文件的目录
-通常资源库【xx.github.io】下会存放源文件和生成的静态文件，想要把源文件和生成的静态文件隔离开？

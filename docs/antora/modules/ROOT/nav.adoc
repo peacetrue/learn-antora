@@ -1,2 +1,2 @@
-* xref:index.adoc[简介]
+* xref:index.adoc[文档]
 * xref:question.adoc[常见问题]

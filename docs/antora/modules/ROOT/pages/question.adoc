@@ -1,0 +1,33 @@
+= 常见问题
+
+== 如何指定生成文件的路径
+``antora generate --to-dir site site.yml``
+
+antora generate --fetch --clean --to-dir site site.yml
+antora generate --clean --to-dir public site.yml
+antora generate --to-dir public site.yml
+
+== GitHub Pages 源文件与静态文件分离
+* 如果源文件是Markdown，使用GitHub默认支持的'jeyyle'，不需要在本地生成静态文件，没有此需求
+* 使用index.html做重定向
+
+是否可以配置静态文件的目录
+通常资源库【xx.github.io】下会存放源文件和生成的静态文件，想要把源文件和生成的静态文件隔离开？
+
+== antora-ui-default
+
+== 关于GitHub Pages的构思
+
+== 如何通过 antora 预览页面
+antora 对文档结构有要求并且提供了一些内置属性。
+当我在 Intellij Idea 中编辑文档时，文档无法正常预览，
+因为在非 antora 环境中，缺少内置属性。
+我如何能在 Intellij Idea 中正确的预览页面？
+
+Antora has requirements for document structure and provides some built-in properties.
+When I edit a document in Intellij Idea, the document does not preview properly.
+Because in non-antora environments, built-in properties are missing.
+How can I preview the page correctly in Intellij Idea?
+
+== 如何引用单元测试中的代码
+
